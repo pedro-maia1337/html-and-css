@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+ 
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #D97179,#D92B3A);
+    background-attachment: fixed;
+}
+
+
+
+#text{
+    display: inline;
+    text-align: left;
+    font-size: 20px;
+    color: #D9C8A9;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px; 
+}
+
+#img{
+    display: grid;
+    place-items: center;
+}
+
+.corset{
+    display: grid;
+    width: 200px;
+
+}
+
+.paragrafo{
+    display: inline;
+    font-size: 20px;
+    color: #D9C8A9;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.titulo{
+    display: inline;
+    font-size: 20px;
+    color: #D9C8A9;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+     

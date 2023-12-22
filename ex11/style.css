@@ -1,0 +1,16 @@
+body{
+    background-color: lightblue;
+    font-family: Arial;
+}
+
+h1{
+    color: mediumblue;
+}
+
+p{
+    text-align: justify;
+}
+
+h2{
+    color: darkred;
+}

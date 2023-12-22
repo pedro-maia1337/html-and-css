@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&family=Work+Sans&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    background-color: #AECFAC;
+}
+
+#principal{
+    color: white;
+    background-color: #2D522B;
+    text-align: center;
+}
+
+.curso{
+    color: #038C3E;
+}
+.basico{
+    color: #005C53;
+}
+
+.intermediario{
+    color: #02735E;
+}
+
+.avancado{
+    color: #034159;
+}
