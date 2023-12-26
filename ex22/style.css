@@ -1,0 +1,33 @@
+body{
+    background-image: url(imagens/pattern004.png);
+}
+
+
+#pai{
+    text-align: center;
+}
+.quadrado{
+    display: inline-block;
+    place-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
+#q1{
+    background-color: lightblue;
+    text-align: center;
+
+}
+
+#q2{
+    background-image: linear-gradient(to bottom, yellow, red);
+    text-align: center;
+
+}
+
+#q3{
+    background-image: url(imagens/pattern003.png);
+    text-align: center;
+
+}
