@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Tabela</title>
+    <style>
+        table{
+            width: 700px;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        td, thead, th{
+            border: 1px solid black; /*Borda na tabela */
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</td>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup" colspan="3">Filmes</th> <!--Colgroup - um grupo de colunas dentro de um titulo-->>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Mulheres</th> <!--Rowgroup - um grupo de linhas dentro de um titulo-->
+                <td>Ana Maria Santos</td>
+                <td>Shiva Baby</td>
+                <td>Bottons</td>
+                <td>Black Swan</td>
+            </tr>
+            <tr>
+                <td>Beatriz Souza</td>
+                <td>Barbie</td>
+                <td>Lady Bird</td>
+                <td>Little Women</td>
+            </tr>
+            <tr>
+                <td>Claúdia Melo</td>
+                <td>Gone Girl</td>
+                <td>Jennifer body</td>
+                <td>Big Hero</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Homens</th>
+                <td>Bruno Mendonça</td>
+                <td>Intocáveis</td>
+                <td>Amnesia</td>
+                <td>Gladiador</td>
+            </tr>
+            <tr>           
+                <td>Daniel Lourenço</td>
+                <td>Pulp Fiction</td>
+                <td>Bastardos Inglórios</td>
+                <td>Kill Bill</td>
+            </tr>
+            <tr>
+                <td>Fabiano Mota</td>
+                <td>Get Out</td>
+                <td>Oppenheimer</td>
+                <td>Clube da Luta</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
