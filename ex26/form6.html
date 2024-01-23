@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando forms</title>
+    <style>
+        body{
+            font-size: 20px;
+        }
+        div{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando outputs</h1>
+    <form action="">
+        <div>
+            <input type="range" name="range" id="irange" min="0" max="10" value="5" oninput="ival.innerHTML = Number(irange.value)">
+            <output id="ival"></output>
+        </div>
+
+        <div>
+            <label for="iano">Digite seu ano de nascimento:</label>
+            <input type="number" name="ano" id="iano" oninput="calcIdade()">
+        </div>
+        <div>
+            <label for="iage">Sua idade é de</label>
+            <output id="iidade":>0</output>
+        </div>
+    </form>
+</body>
+<script>
+    function calcIdade(){
+        const data = new Date().getFullYear()
+        const idade = data - Number(iano.value)
+        iidade.innerHTML = idade
+    }
+</script>
+</html>

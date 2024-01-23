@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbutton e cheklist</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        div{
+            padding: 5px;
+        }
+        fieldset{
+            border: 1px solid black;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando Forms</h1>
+    <form action="">
+        <fieldset>
+            <legend>Sexo</legend>
+            <div>
+                <input type="radio" name="sexo" id="imas"> <!--Colocar o mesmo nome-->
+                <label for="imas">Masculino</label>
+            </div>
+            <div>
+                <input type="radio" name="sexo" id="ifem"> <!--Colocar o mesmo nome-->
+                <label for="ifem">Feminino</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <div>
+                <input type="checkbox" name="fut" id="ifut"> 
+                <label for="ifut">Futebol</label>
+
+                <input type="checkbox" name="bas" id="ibasq"> 
+                <label for="ibasq">Basquete</label>
+
+                <input type="checkbox" name="volei" id="ivolei"> 
+                <label for="ivolei">Vôlei</label>
+
+                <input type="checkbox" name="golf" id="igolf"> 
+                <label for="igolf">Golf</label>
+            </div>
+            <div>
+
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
